@@ -23,8 +23,8 @@ public class TestPedido
 
        pedido2 = new Pedido(new Fecha(8,10,2019),
                   new Cliente("Elisa Nuin", "C/ Río Alzania 7", "Pamplona", "Navarra"),
-                  new LineaPedido(new Producto("Sacapuntas", 6.70), 20),
-                  new LineaPedido(new Producto("Memoria USB 64GB", 14.80), 10));
+                  new LineaPedido(new Producto("Sacapuntas", 16.64), 10),
+                  new LineaPedido(new Producto("Corrector tippex", 5.99), 8));
          
 
     }
