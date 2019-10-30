@@ -1,6 +1,7 @@
 /**
- *  
  * Modela un producto. Todo producto tiene un nombre y un  precio unidad 
+ * 
+ * Elaia
  */
 public class Producto
 {
@@ -32,8 +33,8 @@ public class Producto
     /**
      * obtiene un nuevo producto copia idéntica del actual
      */
-    public         obtenerCopia() {
-         
+    public Producto obtenerCopia() {
+         return new Producto(nombre, precio);
     }
 
     /**
@@ -41,7 +42,7 @@ public class Producto
      * (ver enunciado)
      */
     public String toString() {
-        
+        return nombre + " |    " + precio + "€ unidad";
     }
 
 }

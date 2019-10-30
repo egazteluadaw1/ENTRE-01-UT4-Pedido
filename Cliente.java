@@ -1,7 +1,9 @@
 
 
 /**
- *  Representa a un cliente que hace un pedido 
+ *  Representa a un cliente que hace un pedido
+ *  
+ *  Elaia
  */
 public class Cliente
 {
@@ -52,7 +54,11 @@ public class Cliente
      * representación textual del cliente
      */
     public String toString() {
-         
+        System.out.println(); 
+        return "   NOMBRE: " + nombre + 
+                "\nDIRECCIÓN: " + direccion + 
+                "\n   CIUDAD: " + ciudad +
+                "\nPROVINCIA: " + provincia;
           
     }
     
